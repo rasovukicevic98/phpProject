@@ -1,0 +1,18 @@
+Ime aplikacije je E-CLASSROOM. Zahvaljujuci ovoj aplikaciji, korisnik moze da 
+kreira predmet i da u okviru tog predmeta dodaje jegove zadatke.
+Naslobna stranica je index.php na kojoj se nalazi spisak svih predmeta koje je korisnik kreirao.
+Na vrhu stranice se nalazi navigacioni meni gde ima mogucnost da se iz bilo kod 
+dela aplikacije pristupi formi za dodavanje novog predmeta. Pored toga
+korisnik ima mogucnost da sortira sve predmete po njihovom nazivu u 
+rastucem ili opadajucem redosledu. Takodje postoji i search polje, 
+uz pomoc kog korisnik moze da pretrazi listu predmeta po nazivu.
+
+Svaki predmet je predstavljen kao karticu u okviru koje se 
+nalaze dugmici za azuriranje predmeta, brisanje kao i pregled svih podataka o predmetu.
+U slucaju da korisnik hoce da pregleda neki predmet, to nas vodi na read.php stranicu,
+gde korisnik pored izlistanih podataka o samom predmetu i mogucnosti izmene i brisanja,
+moze da vidi i sve zadatke koji se nalaze u okviru tog predmeta. Takodje na ovoj stranici
+korisnik ima mogusnost da dodaje nove zadatke, tj assignment-e.
+
+Falovi actionDelete, edit, post, put, postForAssignment služe za odgovarajuće metode prenosa upita
+u bazu. Takođe imamo database.php koji sadrži sve CRUD funkcije - SELECT,UPDATE,DELETE,INSERT.
